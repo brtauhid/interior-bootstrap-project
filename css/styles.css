@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Oswald", sans-serif;
+}
+.topbar-container {
+  height: 60px;
+}
+
+.topbar-bg {
+  background-color: #181818;
+  height: 100px;
+}
+
+.main-menu {
+  color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.social-icons {
+  color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 18px;
+}
+.social-icons a,
+.main-menu a {
+  color: #fff;
+}
